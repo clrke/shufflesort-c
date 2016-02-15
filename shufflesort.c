@@ -90,6 +90,6 @@ int main() {
     printf("%12s %12s\n", "swap count", "occurences");
     print(max_swaps, all_swaps_count);
 
-    printf("Average: %f", get_average(max_swaps, all_swaps_count, m));
+    printf("Average: %f\n", get_average(max_swaps, all_swaps_count, m));
 }
 
